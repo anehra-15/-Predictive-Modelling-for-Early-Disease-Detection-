@@ -33,7 +33,7 @@ The dataset used for this project consists of the following columns:
 ## Techniques Applied
 - Data Cleaning: Addressed missing values, outliers, and irrelevant data.
 - Data Pre-processing: Prepared the dataset for modeling by handling categorical values and feature engineering.
-- Exploratory Data Analysis (EDA): Conducted comprehensive EDA to understand data distributions, correlations, and patterns.
+- Exploratory Data Analysis (EDA): Conducted comprehensive EDA to understand data distributions, correlations, and patterns along with PCA to check the scope of dimensionality reduction.
 - Mean/Mode Imputation: Filled missing values using appropriate imputation techniques.
 
 ## Models Trained
@@ -62,9 +62,11 @@ The dataset used for this project consists of the following columns:
 - Logistic Regression: Balanced sensitivity and recall scores, indicating its effectiveness.
 - Decision Tree: Achieved reasonable accuracy and stability.
 
+Based on our analysis, Logistic Regression exhibits good accuracy for both train and test data, showing consistent performance.Considering the overall metrics, Logistic Regression seems to perform slightly better based on accuracy metrics for both train and test data. Randome Forest seems to be overfitting and this can be addressed by further augmenting the dataset with more appropriate features and exploring the Hyper-Parameter tuning.
+
 ## Future Improvements
 Explore ensemble methods for model enhancement.
-Conduct feature importance analysis for better insights.
+Augment the Dataset to Enrich the existing dataset by integrating additional data from diverse sources to broaden the feature set.
 Experiment with hyperparameter tuning for improved model performance.
 
 ## Conclusion
